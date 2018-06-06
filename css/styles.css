@@ -14,3 +14,6 @@ p {
 }
 
 /* PLACE YOUR CUSTOM CODE HERE */
+.jumbotron{
+  background: url('../img/hero.png');
+}
