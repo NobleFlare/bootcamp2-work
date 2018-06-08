@@ -14,6 +14,32 @@ p {
 }
 
 /* PLACE YOUR CUSTOM CODE HERE */
-.jumbotron{
-  background: url('../img/hero.png');
+.banner{
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.text-uppercase {
+  color: white;
+}
+
+.navbar{
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.logo{
+  width: 6%;
+}
+.row{
+  padding: 3% 0 3% 0;
+}
+.adopt-animal{
+  background-color: light gray;
+}
+.footer{
+  background-color: black;
+}
+.footer-text{
+  color: white;
 }
