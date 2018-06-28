@@ -1,1 +1,122 @@
+/* STYLE PRESETS DO NOT ALTER THIS SECTION */
+h1, h2, h3, h4, h5, h6 {
+    margin-top:10px;
+}
 
+p {
+    font-size:16px;
+}
+
+.fab, .far {
+    font-size:30px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+/* PLACE YOUR CUSTOM CODE HERE */
+
+/* global styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.feature-text {
+    text-align: center;
+}
+
+/* nav */
+.navbar {
+    border-radius:0;
+    border:0;
+    margin-bottom:0;
+}
+
+.navbar-default {
+    background:#ffffff;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navbar-brand h1 {
+	color: #FF827B;
+	font-family: 'Satisfy', cursive;
+    margin-top:0;
+    font-size:26px;
+}
+
+/* jumbotron */
+.jumbotron {
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	background-position: center;
+    margin-bottom:0px;
+}
+
+.jumbotron h2 {
+	color: white;
+}
+
+/* cat section */
+#cat-section {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+/*dog section */
+#dog-section {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+/* services section */
+#services-section {
+    padding-top:60px;
+    padding-bottom:60px;
+    background:#eeeeee;
+}
+
+/* CONTACT PAGE */
+.contact-section {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+/* FOOTER */
+.footer-section {
+    background:#222222;
+    padding-top:60px;
+    padding-bottom:60px;
+    color:#ffffff;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-section a {
+    color:#ffffff;
+}
+
+@media only screen and (min-width : 992px) {
+    .jumbotron {
+        padding-top:120px;
+        padding-bottom:120px;
+    }
+
+    .feature-text {
+        padding-top:40px;
+        text-align: left;
+    }
+
+    .footer-social {
+        text-align: left;
+    }
+}
